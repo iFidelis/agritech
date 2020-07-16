@@ -1,0 +1,270 @@
+/*!
+ * Start Bootstrap - One Page Wonder v5.0.8 (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Lato';
+  font-size: 1.18rem;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'lato';
+  font-weight: 800 !important;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.pa-2 {
+  padding: 2rem;
+}
+
+.ptop-l {
+  margin-top: 120px;
+}
+.ptop-m {
+  margin-top: 40px;
+}
+.ptop-s {
+  margin-top: 20px;
+}
+
+.pbtm-l {
+  margin-bottom: 120px;
+}
+.pbtm-m {
+  margin-bottom: 75px;
+}
+
+.pbtm-s {
+  margin-bottom: 32px;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: white;
+  box-shadow: 0px 3px 10px #00000021;
+}
+
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading h1 {
+  font-size: 2rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 1rem;
+}
+
+header.masthead .bg-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+}
+
+header.masthead .bg-circle-1 {
+  height: 90rem;
+  width: 90rem;
+  bottom: -55rem;
+  left: -55rem;
+}
+
+header.masthead .bg-circle-2 {
+  height: 50rem;
+  width: 50rem;
+  top: -25rem;
+  right: -25rem;
+}
+
+header.masthead .bg-circle-3 {
+  height: 20rem;
+  width: 20rem;
+  bottom: -10rem;
+  right: 5%;
+}
+
+header.masthead .bg-circle-4 {
+  height: 30rem;
+  width: 30rem;
+  top: -5rem;
+  right: 35%;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem;
+  }
+  .about .masthead-subheading {
+    font-size: 1.3rem;
+    width: 80%;
+    margin: 0 auto;
+    color: #333;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pa-2 {
+    padding: .5rem;
+  }
+}
+
+.bg-primary {
+  background-color: #F47350 !important;
+}
+
+.btn-primary {
+  background-color: #F47350;
+  border-color: #fff;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #F47350 !important;
+  border-color: #F47350 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn-secondary {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #cc5500 !important;
+  border-color: #cc5500 !important;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+.indust li {
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+.card-body img {
+  height: 8em;
+  padding-bottom: 20px;
+}
+
+.indust img {
+  height: 4em;
+  padding-bottom: 16px;
+}
+
+.e-h .card-body {
+  min-height: 320px;
+}
+
+.e-h .card {
+  margin-bottom: 24px;
+}
+
+.bg-s {
+  background-color: #ff6a00;
+}
+.bg-t {
+  background-color: #ee0979;
+}
+.bg-u {
+  background-color: #5c2784;
+}
+.bg-v {
+  background-color: #1a51a3;
+}
+.bg-w {
+  background-color: #c0006a;
+}
+.bg-x {
+  background-color: #10d489;
+}
+.bg-z {
+  background-color: #fcfcfc;
+}
+.bg-r {
+  background-color: #36df84;
+}
+.timeline .card-body:hover {
+  box-shadow: -5px 5px 0px 0px #333;
+  transition-duration: .4s;
+}
+.theme {
+  color: #36df84;
+}
+
+.alternate {
+  color: #ff6a00;
+  text-decoration: underline;
+}
+
+a.alternate:hover {
+  color: white !important;
+}
+
+.adv {
+  vertical-align: bottom;
+   font-size: 18px !important;
+   padding-right: 10px;
+}
