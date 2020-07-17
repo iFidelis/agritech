@@ -175,6 +175,13 @@ header.masthead .bg-circle-4 {
   .contact {
     padding-top: 20px;
   }
+  h2 {
+    font-size: 3rem !important;
+  }
+  .row {
+    margin-top: 0px;
+    margin-right: 0px;
+  }
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -288,6 +295,6 @@ a.alternate:hover {
 
 @media screen and (min-width: 990px) {
   h2 {
-    font-size: 2rem !important;
+    font-size: 3rem !important;
   }
 }
