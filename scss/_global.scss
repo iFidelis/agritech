@@ -1,5 +1,6 @@
 body {
   @include body-font;
+  scroll-behavior: auto !important;
 }
 
 h1,
